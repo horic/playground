@@ -1,4 +1,4 @@
 playground
 ==========
-A playground for testing out spring framework. 
+A playground for trying out the spring framework. 
 
