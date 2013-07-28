@@ -17,7 +17,7 @@ public class BaseController {
 
 	@RequestMapping(value = "/welcome", method = RequestMethod.GET)
 	public String welcome(ModelMap model) {
-		//master
+		//master merged
 		model.addAttribute("message",
 				"Maven Web Project + Spring 3 MVC - welcome()");
 
