@@ -33,7 +33,7 @@ public class BaseControllerTest {
 		return Arrays.asList(new Object[][] {
 		
 				{ "1", "2" },
-				{ "3", "4" }
+				{ "3", "2" }
 				
 		
 		});
