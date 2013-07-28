@@ -31,7 +31,6 @@ public class BaseController {
 
 		model.addAttribute("message", "Maven Web Project + Spring 3 MVC - "
 				+ name);
-		
 		return "index";
 
 	}
