@@ -37,7 +37,7 @@ public class BaseControllerTest {
 	public static List<Object[]> data() {
 		return Arrays.asList(new Object[][] {
 				{ "1", "2" },
-				{ "3", "2" }
+				{ "1", "2" }
 		});
 
 	}

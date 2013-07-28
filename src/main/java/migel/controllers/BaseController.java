@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import org.springframework.web.servlet.support.RequestContextUtils;
 
 @Controller
@@ -16,11 +17,10 @@ import org.springframework.web.servlet.support.RequestContextUtils;
 public class BaseController {
 
 	@RequestMapping(value = "/welcome", method = RequestMethod.GET)
-	public String welcome(ModelMap model) {
+	public String welcome(ModelMap model, RedirectAttributes redirectAttributes) {
 		//master merged
 		model.addAttribute("message",
 				"Maven Web Project + Spring 3 MVC - welcome()");
-
 		// Spring uses InternalResourceViewResolver and return back index.jsp
 		return "index";
 
